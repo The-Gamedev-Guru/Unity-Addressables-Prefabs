@@ -4,7 +4,16 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Level-2-Addressables-Prefabs-Lifecycle-Manually.unity
+    guid: 3ec7caff496237d45aa6259ad1ee0928
+  - enabled: 1
+    path: Assets/Level-1-Prefabs-Lifecycle-Traditional.unity
+    guid: 826449e39a375dd40ab65af4967ce644
+  - enabled: 1
+    path: Assets/Level-3-Addressables-Prefabs-Lifecycle-ReferenceCounting.unity
+    guid: aa1345e03a3f1994990e135939e479d2
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 1039d656151dd5943bd4153551b52464,
       type: 2}
