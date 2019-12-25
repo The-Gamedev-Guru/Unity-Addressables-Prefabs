@@ -16,7 +16,19 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: b65d74ed19f628649a87cdb195f90364
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 3ec7caff496237d45aa6259ad1ee0928
+    m_Address: Assets/Level-2-Addressables-Prefabs-Lifecycle-Manually.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_mainAssetType: UnityEditor.SceneAsset, UnityEditor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - m_GUID: 6f43bf5488a7443d19ab2a83c6b91f35
+    m_Address: TankPrefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: fa618519722f70d4c9ed2215607f6813, type: 2}
   m_SchemaSet:

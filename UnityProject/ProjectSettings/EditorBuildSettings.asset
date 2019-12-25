@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Level-2-Addressables-Prefabs-Lifecycle-Manually.unity
     guid: 3ec7caff496237d45aa6259ad1ee0928
   - enabled: 1

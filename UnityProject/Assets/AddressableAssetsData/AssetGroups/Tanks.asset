@@ -16,13 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 6b67bc56d2c25c94cb5e9e0090dda520
-  m_SerializeEntries:
-  - m_GUID: 6f43bf5488a7443d19ab2a83c6b91f35
-    m_Address: TankPrefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: fa618519722f70d4c9ed2215607f6813, type: 2}
   m_SchemaSet:
