@@ -13,8 +13,8 @@ public class Level_3_HandleAddressablesPrefabLifecycleReferenceCounting : MonoBe
     [SerializeField] private float separation = 1f;
     [SerializeField] private int instanceCount = 10;
     [SerializeField] private AssetReference prefabReference = null;
-    
-    List<GameObject> _instances = new List<GameObject>();
+
+    private readonly List<GameObject> _instances = new List<GameObject>();
 
     public void HandleLifecycle()
     {
@@ -44,7 +44,6 @@ public class Level_3_HandleAddressablesPrefabLifecycleReferenceCounting : MonoBe
         {
             Addressables.ReleaseInstance(instance);
         }
-
         _instances.Clear();
     }
 }

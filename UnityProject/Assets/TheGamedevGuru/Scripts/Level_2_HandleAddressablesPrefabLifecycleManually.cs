@@ -12,10 +12,10 @@ public class Level_2_HandleAddressablesPrefabLifecycleManually : MonoBehaviour
     [SerializeField] private Transform spawnAnchor = null;
     [SerializeField] private float separation = 1f;
     [SerializeField] private int instanceCount = 10;
-    [SerializeField] private AssetReference prefabReference = null;
+    [SerializeField] private AssetReference prefabReference = null;    // Indirect reference
     
     private AsyncOperationHandle<GameObject> _asyncOperationHandle;
-    List<GameObject> _instances = new List<GameObject>();
+    private readonly List<GameObject> _instances = new List<GameObject>();
 
     public void HandleLifecycle()
     {
@@ -50,7 +50,6 @@ public class Level_2_HandleAddressablesPrefabLifecycleManually : MonoBehaviour
         {
             Destroy(instance);
         }
-
         _instances.Clear();
         Addressables.Release(_asyncOperationHandle);
     }

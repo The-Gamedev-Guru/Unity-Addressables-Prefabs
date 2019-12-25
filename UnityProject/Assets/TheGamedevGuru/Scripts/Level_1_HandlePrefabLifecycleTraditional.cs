@@ -1,11 +1,5 @@
-﻿
-using System.Collections;
-using System.Collections.Generic;
-using TMPro;
+﻿using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AddressableAssets;
-using UnityEngine.ResourceManagement.AsyncOperations;
-using UnityEngine.UI;
 
 namespace TheGamedevGuru
 {
@@ -15,8 +9,8 @@ public class Level_1_HandlePrefabLifecycleTraditional : MonoBehaviour
     [SerializeField] private float separation = 1f;
     [SerializeField] private int instanceCount = 10;
     [SerializeField] private GameObject prefabReference = null;
-    
-    List<GameObject> _instances = new List<GameObject>();
+
+    private readonly List<GameObject> _instances = new List<GameObject>();
 
     public void HandleLifecycle()
     {
@@ -46,7 +40,6 @@ public class Level_1_HandlePrefabLifecycleTraditional : MonoBehaviour
         {
             Destroy(instance);
         }
-
         _instances.Clear();
     }
 }
